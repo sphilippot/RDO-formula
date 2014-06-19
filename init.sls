@@ -1,6 +1,6 @@
 /etc/pki/rpm-gpg/RPM-GPG-KEY-RDO-Icehouse:
   file.managed:
-    - source: salt://RDO-formula/etc/pki/rpm-gpg/RPM-GPG-KEY-RDO-Icehouse
+    - source: salt://RDO-formula/etc/rpm-gpg/RPM-GPG-KEY-RDO-Icehouse
     - user: root
     - group: root
     - mode: 644
